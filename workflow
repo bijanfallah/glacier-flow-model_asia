@@ -9,7 +9,7 @@
 > from glacier_flow_model import GlacierFlowModel, PkgDataAccess
 > LOG_FORMAT = "[%(asctime)s %(levelname)s] %(message)s (%(name)s)"
 > logging.basicConfig(format=LOG_FORMAT, level=logging.INFO)
-> gfm = GlacierFlowModel(dem,ela=4000, m=0.006)
+> gfm = GlacierFlowModel(dem,ela=4040, m=0.00045)
 > gfm.plot=False
 > gfm.reach_steady_state()
 > gfm.export("ela_4040_m_00045_steady_state")
